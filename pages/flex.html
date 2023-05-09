@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Style.css">
+
+	<title>Flexbox Example</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.box {
+			background-color: #efefef;
+			border: 3px solid #e27317;
+			padding: 10px;
+			margin: 10px;
+			flex-basis: 100px;
+			flex-grow: 3;
+			flex-shrink: 2;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+    <body style="background-color:#1c87c9;"></body>
+    <header>
+         
+        <nav> 
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/acercade.html">Acerca de</a></li> 
+                <li><a href="./pages/contacto.html">contacto</a></li>
+                <li><a href="./pages/Productos.html">Productos</a> 
+                <li><a href="./pages/flex.html">Flexbox</a></li>    
+                <ul>
+                    <li><a href="">Computadoras</a></li>
+                    <li><a href="">Accesorios</a></li>
+                </ul>
+                 </li>
+                <li><a href="./pages/servicios.html">Servicios </a></li>
+                <li><a href="">Item 1</a>
+                    <ul>
+                        <li><a href="">Subitem</a></li>
+                        <li><a href="">Subitem</a></li>
+                    </ul>
+                </li>
+                
+                    
+            </ul>
+        </nav>
+	<div class="container">
+		<div class="box">Computadoras</div>
+		<div class="box">Amd</div>
+		<div class="box">Intel</div>
+		<div class="box">SSD</div>
+		<div class="box">Pen-drive</div>
+		<div class="box">Notebooks</div>
+		<div class="box">Gabinetes</div>
+		<div class="box">Placas Madres</div>
+	</div>
+</body>
+</html>
