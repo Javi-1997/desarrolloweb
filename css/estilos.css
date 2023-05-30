@@ -1,2 +1,8 @@
+@import "header";
+@import "body";
+@import "footer" nav;
 h1 {
   color: red; }
+
+ul {
+  background: #f0bdab; }

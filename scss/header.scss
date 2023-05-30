@@ -1,0 +1,17 @@
+// Variables
+$primary-color: #ff0000;
+$background-color: #ffffff;
+$font-size: 18px;
+
+// Header styles
+header {
+  background-color: $background-color;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: $font-size;
+  color: $primary-color;
+  margin: 0;
+}
