@@ -5,13 +5,54 @@ h1 {
   color: red; }
 
 ul {
-  background: #f0bdab; }
+  background: #0d0e0d; }
 
 html body header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarSupportedContent.collapse.navbar-collapse {
   background-color: black; }
 
-html body {
-  background-image: url("https://media2.houstonpress.com/hou/imager/u/magnum/13821710/microcenter800.jpg?cb=1659061382");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; }
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1129&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .hero-content {
+    text-align: center;
+    color: #fff; }
+    .hero-content h1 {
+      font-size: 32px;
+      margin-bottom: 16px; }
+    .hero-content p {
+      font-size: px;
+      margin-bottom: 24px; }
+    .hero-content .cta-button {
+      padding: 12px 24px;
+      background-color: #c7b0b0;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px; }
+
+footer {
+  background-color: #080a09;
+  justify-content: right; }
+
+.acercade {
+  background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1129&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .acercade-content {
+    text-align: center;
+    color: #fff; }
+    .acercade-content h1 {
+      font-size: 32px;
+      margin-bottom: 16px; }
+    .acercade-content p {
+      font-size: px;
+      margin-bottom: 24px; }

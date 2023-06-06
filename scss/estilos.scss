@@ -2,10 +2,75 @@
 h1{
     color: red;
  }
- @import "header","body","footer"
+@import "header","body","footer"
 
-nav ul {background: rgb(240, 189, 171);}
+nav ul{background: rgb(13, 14, 13);}
+
 html body header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarSupportedContent.collapse.navbar-collapse {background-color: black;}
-html body {background-image: url('https://media2.houstonpress.com/hou/imager/u/magnum/13821710/microcenter800.jpg?cb=1659061382'); background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;}
+
+
+$primary-color: rgb(199, 176, 176);
+$background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1129&q=80');
+
+
+.hero {
+  background-image: $background-image;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  &-content {
+    text-align: center;
+    color: #fff;
+    
+    h1 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: px;
+      margin-bottom: 24px;
+    }
+    
+    .cta-button {
+      padding: 12px 24px;
+      background-color: $primary-color;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+  }
+}
+
+footer {background-color: rgb(8, 10, 9);justify-content: right ;}
+
+.acercade{
+  background-image: $background-image;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  &-content {
+    text-align: center;
+    color: #fff;
+    
+    h1 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: px;
+      margin-bottom: 24px;
+    }
+    }}
+
+
