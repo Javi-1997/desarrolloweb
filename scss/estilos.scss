@@ -75,3 +75,17 @@ footer {background-color: rgb(8, 10, 9);justify-content: right ;}
 }
 
 
+#cuadricula {
+  display: grid;
+  grid-template-columns:1fr 3fr 1fr ;
+  grid-template-rows: 50px auto 70px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(117, 117, 117);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+} 
