@@ -28,6 +28,9 @@ html body header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container
   .hero-content {
     text-align: center;
     color: #572bcf; }
+    .hero-content img {
+      width: auto;
+      height: auto; }
     .hero-content h1 {
       font-size: 32px;
       margin-bottom: 16px; }

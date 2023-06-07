@@ -25,7 +25,7 @@ $background-image: url('https://images.unsplash.com/photo-1557683316-973673baf92
   &-content {
     text-align: center;
     color: #572bcf;
-    
+    img{width: auto;height: auto;}
     h1 {
       font-size: 32px;
       margin-bottom: 16px;
@@ -53,7 +53,7 @@ footer {background-color: rgb(8, 10, 9);justify-content: right ;}
   background-image: $background-image;
   background-size: cover;
   background-position: center;
-  height: 100px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
