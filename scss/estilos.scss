@@ -1,8 +1,8 @@
 
 h1{
     color: red;
- }
-@import "header","body","footer"
+   }
+@import "header","body","footer";
 
 nav ul{background: rgb(13, 14, 13);}
 
@@ -53,7 +53,7 @@ footer {background-color: rgb(8, 10, 9);justify-content: right ;}
   background-image: $background-image;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +71,7 @@ footer {background-color: rgb(8, 10, 9);justify-content: right ;}
       font-size: px;
       margin-bottom: 24px;
     }
-    }}
+  }
+}
 
 

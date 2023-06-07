@@ -1,10 +1,17 @@
-@import "header";
-@import "body";
-@import "footer" nav;
 h1 {
   color: red; }
 
-ul {
+header {
+  background-color: #0c0a0a;
+  padding: 20px;
+  text-align: center; }
+
+h1 {
+  font-size: 18px;
+  color: #dd2626;
+  margin: 0; }
+
+nav ul {
   background: #0d0e0d; }
 
 html body header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarSupportedContent.collapse.navbar-collapse {
