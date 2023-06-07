@@ -69,14 +69,14 @@ footer {
 
 #cuadricula {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 50px auto 70px;
-  background-color: #2196F3;
-  padding: 10px; }
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 360px auto 70px;
+  background-color: #c2e0f8;
+  padding: 5px; }
 
 .item {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid #757575;
-  padding: 20px;
+  border: 2px solid #757575;
+  padding: 15px;
   font-size: 30px;
   text-align: center; }
