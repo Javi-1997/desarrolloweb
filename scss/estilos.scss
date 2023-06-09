@@ -7,7 +7,7 @@ h1{
 
 nav ul{background: rgb(0, 0, 0);}
 
-html body header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarSupportedContent.collapse.navbar-collapse {background-color: black;}
+html body header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarSupportedContent.collapse.navbar-collapse {background-color: rgb(41, 95, 146);}
 
 
 $primary-color: rgb(199, 176, 176);
@@ -46,7 +46,7 @@ $background-image: url('https://images.unsplash.com/photo-1557683316-973673baf92
       text-decoration: none;
       font-weight: bold;
       border-radius: 4px;
-    }
+     }
   }
 }
 
@@ -98,14 +98,14 @@ footer {background-color: rgb(8, 10, 9);justify-content: right ;}
 
 ul li:hover ul {
   display:block;
-  background-color: #000000;
+  background-color: #5f17e4;
 }
 ul {
   list-style: none;
   font: size 1px;
 
   nav :hover {
-    background-color: #54129e;
+    background-color: #1e14b4;
   }
  }
  
