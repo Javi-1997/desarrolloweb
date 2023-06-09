@@ -12,7 +12,7 @@ h1 {
   margin: 0; }
 
 nav ul {
-  background: #9674ce; }
+  background: black; }
 
 html body header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarSupportedContent.collapse.navbar-collapse {
   background-color: black; }
@@ -92,7 +92,7 @@ ul {
   list-style: none;
   font: size 1px; }
   ul nav :hover {
-    background-color: #1e14b4; }
+    background-color: #54129e; }
 
 @media screen and (max-width: 480px) {
   .grid-container {
