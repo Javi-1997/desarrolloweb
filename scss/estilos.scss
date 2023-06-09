@@ -90,3 +90,45 @@ footer {background-color: rgb(8, 10, 9);justify-content: right ;}
   text-align: center;
 
 } 
+
+ul li:hover ul {
+  display:block;
+  background-color: #4522dd;
+}
+ul {
+  list-style: none;
+  font: size 1px;
+
+  nav :hover {
+    background-color: #1e14b4;
+  }
+ }
+ 
+  
+@media screen and (max-width:480px){
+  .grid-container{
+     grid-template-columns: 1fr;
+     grid-template-rows: 200px 200px 200px;
+ 
+     grid-template-areas: 
+     "header"
+     "nav"
+     "main"
+     "aside"
+     "footer"
+    }
+   }
+  @media screen and (min-width:500px)  {
+    .grid-container{
+       grid-template-columns: 1fr;
+       grid-template-rows: 200px 200px 200px;
+   
+       grid-template-areas: 
+       "header"
+       "nav"
+       "main"
+       "aside"
+       "footer"
+      }
+    
+  }
