@@ -37,6 +37,8 @@ html body header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container
     .hero-content p {
       font-size: px;
       margin-bottom: 24px; }
+    .hero-content ul li {
+      font-size: x-large; }
     .hero-content .cta-button {
       padding: 12px 24px;
       background-color: #c7b0b0;
@@ -84,7 +86,7 @@ footer {
 
 ul li:hover ul {
   display: block;
-  background-color: #4522dd; }
+  background-color: #000000; }
 
 ul {
   list-style: none;

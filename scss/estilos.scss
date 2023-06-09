@@ -36,7 +36,9 @@ $background-image: url('https://images.unsplash.com/photo-1557683316-973673baf92
       font-size: px;
       margin-bottom: 24px;
     }
-    
+    ul li {
+      font-size: x-large;
+    }
     .cta-button {
       padding: 12px 24px;
       background-color: $primary-color;
@@ -96,7 +98,7 @@ footer {background-color: rgb(8, 10, 9);justify-content: right ;}
 
 ul li:hover ul {
   display:block;
-  background-color: #4522dd;
+  background-color: #000000;
 }
 ul {
   list-style: none;
