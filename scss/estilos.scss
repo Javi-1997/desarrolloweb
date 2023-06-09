@@ -1,7 +1,8 @@
 
 h1{
-    color: red;
+    color: rgb(164, 236, 164);
    }
+
 @import "header","body","footer";
 
 nav ul{background: rgb(13, 14, 13);}
@@ -63,13 +64,15 @@ footer {background-color: rgb(8, 10, 9);justify-content: right ;}
     color: #fff;
     
     h1 {
-      font-size: 32px;
+      font-size: xx-large;
       margin-bottom: 16px;
     }
 
     p {
-      font-size: px;
+      
+      color: lightgreen;
       margin-bottom: 24px;
+      font: italic small-caps bold 24px/40px Georgia, serif;
     }
   }
 }

@@ -1,5 +1,5 @@
 h1 {
-  color: red; }
+  color: #a4eca4; }
 
 header {
   background-color: #0c0a0a;
@@ -61,11 +61,12 @@ footer {
     text-align: center;
     color: #fff; }
     .acercade-content h1 {
-      font-size: 32px;
+      font-size: xx-large;
       margin-bottom: 16px; }
     .acercade-content p {
-      font-size: px;
-      margin-bottom: 24px; }
+      color: lightgreen;
+      margin-bottom: 24px;
+      font: italic small-caps bold 24px/40px Georgia, serif; }
 
 #cuadricula {
   display: grid;
