@@ -1,13 +1,13 @@
 
 h1{
-    color: rgb(164, 236, 164);
+    color: rgb(14, 15, 14);
    }
 
 @import "header","body","footer";
 
 nav ul{background: rgb(0, 0, 0);}
 
-html body header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarSupportedContent.collapse.navbar-collapse {background-color: rgb(41, 95, 146);}
+
 
 
 $primary-color: rgb(199, 176, 176);
@@ -50,7 +50,8 @@ $background-image: url('https://images.unsplash.com/photo-1557683316-973673baf92
   }
 }
 
-footer {background-color: rgb(8, 10, 9);justify-content: right ;}
+footer {background-color: rgb(8, 10, 9);justify-content: right ;
+ text-align: right;}
 
 .acercade {
   background-image: $background-image;
@@ -102,7 +103,7 @@ ul li:hover ul {
 }
 ul {
   list-style: none;
-  font: size 1px;
+  font: size 10px;
 
   nav :hover {
     background-color: #1e14b4;
@@ -110,9 +111,9 @@ ul {
  }
  
   
-@media screen and (max-width:480px){
+@media screen and (max-width:1080px){
   .grid-container{
-     grid-template-columns: 1fr;
+     grid-template-columns: 2fr;
      grid-template-rows: 200px 200px 200px;
  
      grid-template-areas: 
