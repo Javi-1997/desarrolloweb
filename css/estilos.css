@@ -56,15 +56,16 @@ footer {
   justify-content: center;
   align-items: center; }
   .acercade-content {
+    border: 2px solid #1612f8;
     text-align: center;
     color: #fff; }
     .acercade-content h1 {
-      font-size: xx-large;
+      font-size: 40px;
       margin-bottom: 16px; }
     .acercade-content p {
       color: lightgreen;
       margin-bottom: 24px;
-      font: italic small-caps bold 24px/40px Georgia, serif; }
+      font: italic small-caps bold 30px/40px Georgia, serif; }
 
 #cuadricula {
   display: grid;
@@ -122,7 +123,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset para navegadores viejos */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
