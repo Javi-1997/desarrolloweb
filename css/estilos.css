@@ -7,6 +7,10 @@ header {
   text-align: center; }
 
 footer {
+  background-color: #080a09;
+  justify-content: right;
+  text-align: right;
+  text-decoration: none;
   text-align: right; }
 
 nav ul {
@@ -42,11 +46,6 @@ nav ul {
       font-weight: bold;
       border-radius: 4px; }
 
-footer {
-  background-color: #080a09;
-  justify-content: right;
-  text-align: right; }
-
 .acercade {
   background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1129&q=80");
   background-size: cover;
@@ -56,14 +55,44 @@ footer {
   justify-content: center;
   align-items: center; }
   .acercade-content {
-    border: 2px solid #1612f8;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    width: 900px;
+    height: 420px;
+    border: 2px solid #9695ee;
+    border-style: 4;
     text-align: center;
-    color: #fff; }
+    color: #fff;
+    border-radius: 10px; }
     .acercade-content h1 {
       font-size: 40px;
       margin-bottom: 16px; }
     .acercade-content p {
-      color: lightgreen;
+      color: #accaac;
+      margin-bottom: 24px;
+      font: italic small-caps bold 30px/40px Georgia, serif; }
+
+.contacto {
+  background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1129&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .contacto-content {
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    width: 300px;
+    height: 400px;
+    border: 2px solid #9695ee;
+    border-style: 4;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px; }
+    .contacto-content h1 {
+      font-size: 40px;
+      margin-bottom: 16px; }
+    .contacto-content p {
+      color: #accaac;
       margin-bottom: 24px;
       font: italic small-caps bold 30px/40px Georgia, serif; }
 
