@@ -6,6 +6,9 @@ header {
   padding: 20px;
   text-align: center; }
 
+footer {
+  text-align: right; }
+
 nav ul {
   background: black; }
 
@@ -99,7 +102,6 @@ ul {
     grid-template-rows: 200px 200px 200px;
     grid-template-areas: "header" "nav" "main" "aside" "footer"; } }
 
-/*reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -120,7 +122,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-/* HTML5 display-role reset para navegadores viejos */
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
