@@ -1,17 +1,15 @@
-h1 {
-  color: #0e0f0e; }
-
 header {
   background-color: #0c0a0a;
   padding: 20px;
   text-align: center; }
 
 footer {
-  text-decoration: none;
   background-color: #080a09;
-  justify-content: right;
   text-align: right;
-  text-align: right; }
+  text-decoration: none; }
+
+h1 {
+  color: #0e0f0e; }
 
 nav ul {
   background: black; }
@@ -23,7 +21,7 @@ nav ul {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: top; }
   .hero-content {
     text-align: center;
     color: #572bcf; }
@@ -96,6 +94,31 @@ nav ul {
       margin-bottom: 24px;
       font: italic small-caps bold 30px/40px Georgia, serif; }
 
+.servicios {
+  background-image: linear-gradient(to bottom, #adcad6, #616566, white);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .servicios-content {
+    background: linear-gradient(to bottom, #181a1b, #7b8285, #2c5364);
+    width: 900px;
+    height: 420px;
+    border: 2px solid #9695ee;
+    border-style: 4;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px; }
+    .servicios-content h1 {
+      font-size: 40px;
+      margin-bottom: 16px; }
+    .servicios-content p {
+      color: #accaac;
+      margin-bottom: 24px;
+      font: italic small-caps bold 30px/40px Georgia, serif; }
+
 #cuadricula {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -151,26 +174,3 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
-
-/* HTML5 display-role reset para navegadores viejos */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
