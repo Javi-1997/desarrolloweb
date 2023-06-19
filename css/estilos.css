@@ -113,7 +113,7 @@ nav ul {
   background-image: linear-gradient(to bottom, #adcad6, #616566, white);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 94.2vh;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -136,6 +136,7 @@ nav ul {
 
 #cuadricula {
   display: grid;
+  height: 92.3vh;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 360px auto 70px;
   background-color: #c2e0f8;
