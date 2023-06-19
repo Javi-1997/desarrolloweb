@@ -3,13 +3,19 @@ header {
   padding: 20px;
   text-align: center; }
 
+body {
+  position: relative; }
+
 footer {
   background-color: #080a09;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   text-align: right;
   text-decoration: none; }
 
 h1 {
-  color: #0e0f0e; }
+  color: #656965; }
 
 nav ul {
   background: black; }
@@ -18,7 +24,7 @@ nav ul {
   background-image: linear-gradient(to bottom, #adcad6, #616566, white);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 94.2vh;
   display: flex;
   justify-content: center;
   align-items: top; }
@@ -43,12 +49,15 @@ nav ul {
       text-decoration: none;
       font-weight: bold;
       border-radius: 4px; }
+    .hero-content #carouselExampleControls {
+      width: auto;
+      height: 540px; }
 
 .acercade {
   background-image: linear-gradient(to bottom, #adcad6, #616566, white);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 94.2vh;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -73,7 +82,7 @@ nav ul {
   background-image: linear-gradient(to bottom, #adcad6, #616566, white);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 94.2vh;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -93,6 +102,12 @@ nav ul {
       color: #accaac;
       margin-bottom: 24px;
       font: italic small-caps bold 30px/40px Georgia, serif; }
+    .contacto-content button {
+      transform: scale(1);
+      transition: transform 0.109s ease-in-out; }
+    .contacto-content button:hover {
+      /* Apply hover properties */
+      transform: scale(1.045); }
 
 .servicios {
   background-image: linear-gradient(to bottom, #adcad6, #616566, white);
