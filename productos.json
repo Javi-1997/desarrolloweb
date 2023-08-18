@@ -1,0 +1,36 @@
+{
+    "estanteria": [
+      {
+        "id": 0,
+        "nombre": "pen-drive 64gb",
+        "precio": 5400,
+        "imagen": "imagen.jpg"
+      },
+      {
+        "id": 1,
+        "nombre": "Procesador",
+        "precio": 179900
+      },
+      {
+        "id": 2,
+        "nombre": "Placa Madre",
+        "precio": 73023
+      },
+      {
+        "id": 3,
+        "nombre": "Memoria Ram",
+        "precio": 225003
+      },
+      {
+        "id": 4,
+        "nombre": "Placa de Video",
+        "precio": 250000
+      },
+      {
+        "id": 5,
+        "nombre": "Gabinete",
+        "precio": 45000
+      }
+    ]
+  }
+    
