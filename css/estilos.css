@@ -53,6 +53,10 @@ nav ul {
       width: auto;
       height: 540px; }
 
+#botonCarrito {
+  height: 35px;
+  width: 72px; }
+
 .acercade {
   background-image: linear-gradient(to bottom, #adcad6, #616566, white);
   background-size: cover;

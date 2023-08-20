@@ -121,13 +121,13 @@ function cargarProductosCarrito(array) {
 
 }
 
-function cargarLibro(array) {
+function cargarProducto(array) {
     let inputAutor = document.getElementById("autorInput")
     let inputTitulo = document.getElementById("tituloInput")
     let inputPrecio = document.getElementById("precioInput")
 
-    let libroCreado = new Libro(array.length + 1, inputAutor.value, inputTitulo.value, parseInt(inputPrecio.value), "libroNuevo.jpg")
-    array.push(libroCreado)
+    let productoCreado = new producto(array.length + 1, inputAutor.value, inputTitulo.value, parseInt(inputPrecio.value), "productoNuevo.jpg")
+    array.push(productoCreado)
     localStorage.setItem("estanteria", JSON.stringify(array))
     mostrarCatalogo(array)
     inputAutor.value = ""
@@ -135,8 +135,8 @@ function cargarLibro(array) {
     inputPrecio.value = ""
 }
 
-btnGuardarLibro.addEventListener("click", () => {
-    cargarLibro(estanteria)
+btnGuardarProducto.addEventListener("click", () => {
+    cargarProducto(estanteria)
 })
 
 buscador.addEventListener("input", () => {
