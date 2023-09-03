@@ -1,4 +1,4 @@
-fetch('https://jsonplaceholder.typicode.com/posts')
+fetch('/productos.json')
     .then( (resp) => resp.json() )
     .then( (data) => {
         console.log( data[0].title )
@@ -86,8 +86,8 @@ function mostrarCatalogo(array) {
     }
 }
 
-function agregarAlCarrito(libro) {
-    carrito.push(libro)
+function agregarAlCarrito(producto) {
+    carrito.push(producto)
     localStorage.setItem("carrito", JSON.stringify(carrito))
 }
 
