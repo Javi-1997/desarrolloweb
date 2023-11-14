@@ -1,28 +1,29 @@
 
-
 localStorage.setItem('bienvenida', '¡Hola Coder!');
 localStorage.setItem('esValido', true);
 localStorage.setItem('unNumero', 20);
 
 
-let mensaje =  localStorage.getItem('bienvenida');
-let bandera =  localStorage.getItem('esValido');
-let numero  =  localStorage.getItem('unNumero');
+let mensaje = localStorage.getItem('bienvenida');
+let bandera = JSON.parse(localStorage.getItem('esValido')); 
+let numero = parseInt(localStorage.getItem('unNumero')); 
 
 console.log(mensaje); 
 console.log(bandera); 
 console.log(numero);  
 
- sessionStorage.setItem('seleccionados', [1,2,3]);
-sessionStorage.setItem('esValido', false);
-sessionStorage.setItem('email', 'info@email.com'); 
 
-let lista   =  sessionStorage.getItem('seleccionados').split(",");
-let banderaa = (sessionStorage.getItem('esValido') == 'true');
-let email   =  sessionStorage.getItem('email');
+sessionStorage.setItem('seleccionados', JSON.stringify([1, 2, 3]));
+sessionStorage.setItem('esValido', JSON.stringify(false)); 
+sessionStorage.setItem('email', 'info@email.com');
+
+
+let lista = JSON.parse(sessionStorage.getItem('seleccionados'));
+let banderaa = JSON.parse(sessionStorage.getItem('esValido')); 
+let email = sessionStorage.getItem('email');
 
 console.log(typeof lista);   
-console.log(typeof bandera); 
+console.log(typeof banderaa); 
 console.log(typeof email);   
 
 for (let i = 0; i < localStorage.length; i++) {

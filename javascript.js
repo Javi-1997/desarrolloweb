@@ -15,14 +15,14 @@ if (localStorage.getItem("carrito")) {
 
 function buscarInfo(buscado, array) {
     let busqueda = array.filter(
-        (libro) => libro.autor.toLowerCase().includes(buscado.toLowerCase()) ||
-            libro.titulo.toLowerCase().includes(buscado.toLowerCase())
+        (producto) => producto.toLowerCase().includes(buscado.toLowerCase()) ||
+            producto.titulo.toLowerCase().includes(buscado.toLowerCase())
     )
 
     if (busqueda.length == 0) {
         coincidencia.innerHTML = ""
         let nuevoDiv = document.createElement("div")
-        nuevoDiv.innerHTML = `<p> No hay coincidencias</p>`
+        nuevoDiv.innerHTML = `<p> 0 coincidencias</p>`
         coincidencia.appendChild(nuevoDiv)
         mostrarCatalogo(array)
     } else {
@@ -31,16 +31,16 @@ function buscarInfo(buscado, array) {
     }
 }
 
-function ordenarMayorMenor(array) {
-    let mayorMenor = [].concat(array)
-    mayorMenor.sort((a, b) => (b.precio - a.precio))
-    mostrarCatalogo(mayorMenor)
-}
-
-function ordenarMenorMayor(array) {
+function MenoraMayor(array) {
     let menorMayor = [].concat(array)
     menorMayor.sort((a, b) => (a.precio - b.precio))
     mostrarCatalogo(menorMayor)
+}
+
+function MayoraMenor(array) {
+    let mayorMenor = [].concat(array)
+    mayorMenor.sort((a, b) => (b.precio - a.precio))
+    mostrarCatalogo(mayorMenor)
 }
 
 function ordenarAlfabeticamente(array) {
@@ -53,7 +53,7 @@ function ordenarAlfabeticamente(array) {
 }
 
 let divProductos = document.getElementById("productos")
-let btnGuardarLibro = document.getElementById("guardarLibroBtn")
+let btnGuardarLibro = document.getElementById("guardarProductoBtn")
 let buscador = document.getElementById("buscador")
 let btnVerCatalogo = document.getElementById("verCatalogo")
 let btnOcultarCatalogo = document.getElementById("ocultarCatalogo")
