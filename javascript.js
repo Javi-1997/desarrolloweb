@@ -1,9 +1,6 @@
-fetch('/productos.json')
-    .then( (resp) => resp.json() )
-    .then( (data) => {
-        console.log( data[0].title )
-        console.log( data[0].body )
-    })
+fetch("https://dolarapi.com/v1/dolares/blue")
+  .then(response => response.json())
+  .then(data => console.log(data));
 
 let carrito = []
 
