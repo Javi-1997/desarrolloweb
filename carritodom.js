@@ -1,19 +1,24 @@
+fetch('productos.json')
+  .then(response => response.json())
+  .then(data => console.log(data));
 
-localStorage.setItem('bienvenida', '¡Hola Coder!');
+
+localStorage.setItem('productos', JSON.stringify(productos));
 localStorage.setItem('esValido', true);
-localStorage.setItem('unNumero', 20);
+localStorage.setItem('unNumero', 1);
+localStorage.setItem('hola', a);
 
-
+let hola = localStorage.getItem("hola");
 let mensaje = localStorage.getItem('bienvenida');
-let bandera = JSON.parse(localStorage.getItem('esValido')); 
+const productoss = JSON.parse(localStorage.getItem('estanteria')); 
 let numero = parseInt(localStorage.getItem('unNumero')); 
 
-console.log(mensaje); 
+console.log(estanteria); 
 console.log(bandera); 
 console.log(numero);  
 
 
-sessionStorage.setItem('seleccionados', JSON.stringify([1, 2, 3]));
+sessionStorage.setItem('seleccionados', JSON.stringify([estanteria]));
 sessionStorage.setItem('esValido', JSON.stringify(false)); 
 sessionStorage.setItem('email', 'info@email.com');
 

@@ -85,7 +85,7 @@ function mostrarCatalogo(array) {
 
 function agregarAlCarrito(producto) {
     carrito.push(producto)
-    localStorage.setItem("carrito", JSON.stringify(carrito))
+    localStorage.setItem("", JSON.stringify(carrito))
 }
 
 function cargarProductosCarrito(array) {
