@@ -1,19 +1,19 @@
 fetch('productos.json')
   .then(response => response.json())
-  .then(data => console.log(data));
+  .then(data => {
 
+    localStorage.setItem('productos', JSON.stringify(productos))});
 
-localStorage.setItem('productos', JSON.stringify(productos));
 localStorage.setItem('esValido', true);
 localStorage.setItem('unNumero', 1);
 localStorage.setItem('hola', a);
 
 let hola = localStorage.getItem("hola");
 let mensaje = localStorage.getItem('bienvenida');
-const productoss = JSON.parse(localStorage.getItem('estanteria')); 
+const productoss = JSON.parse(localStorage.getItem('productos')); 
 let numero = parseInt(localStorage.getItem('unNumero')); 
 
-console.log(estanteria); 
+console.log(productoss); 
 console.log(bandera); 
 console.log(numero);  
 
