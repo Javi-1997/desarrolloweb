@@ -1,4 +1,41 @@
-fetch('productos.json')
+
+    "carrito"; [
+     {
+       "id": 0,
+       "nombre": "pen-drive 64gb",
+       "precio": 5400,
+       "imagen": "imagen.jpg"
+     },
+     {
+       "id": 1,
+       "nombre": "Procesador",
+       "precio": 179900
+     },
+     {
+       "id": 2,
+       "nombre": "Placa Madre",
+       "precio": 73023
+     },
+     {
+       "id": 3,
+       "nombre": "Memoria Ram",
+       "precio": 225003
+     },
+     {
+       "id": 4,
+       "nombre": "Placa de Video",
+       "precio": 250000
+     },
+     {
+       "id": 5,
+       "nombre": "Gabinete",
+       "precio": 45000
+     }
+   ]
+
+   
+
+fetch('carrito')
   .then(response => response.json())
   .then(data => {
 
@@ -6,7 +43,7 @@ fetch('productos.json')
 
 localStorage.setItem('esValido', true);
 localStorage.setItem('unNumero', 1);
-localStorage.setItem('hola', a);
+localStorage.setItem('hola', 'a');
 
 let hola = localStorage.getItem("hola");
 let mensaje = localStorage.getItem('bienvenida');
@@ -15,16 +52,14 @@ let numero = parseInt(localStorage.getItem('unNumero'));
 
 console.log(productoss); 
 console.log(bandera); 
-console.log(numero);  
-
-
-sessionStorage.setItem('seleccionados', JSON.stringify([estanteria]));
-sessionStorage.setItem('esValido', JSON.stringify(false)); 
+console.log(numero);   
+sessionStorage.setItem('seleccionados', JSON.stringify(carrito)),
+sessionStorage.setItem('esValido', JSON.stringify(false)),
 sessionStorage.setItem('email', 'info@email.com');
 
 
 let lista = JSON.parse(sessionStorage.getItem('seleccionados'));
-let banderaa = JSON.parse(sessionStorage.getItem('esValido')); 
+let banderaa = JSON.parse(sessionStorage.getItem('esValido'));
 let email = sessionStorage.getItem('email');
 
 console.log(typeof lista);   

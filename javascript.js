@@ -125,19 +125,28 @@ function cargarProducto(array) {
 
     let productoCreado = new producto(array.length + 1, inputAutor.value, inputTitulo.value, parseInt(inputPrecio.value), "productoNuevo.jpg")
     array.push(productoCreado)
-    localStorage.setItem("estanteria", JSON.stringify(array))
+    localStorage.setItem("carrito", JSON.stringify(array))
     mostrarCatalogo(array)
     inputAutor.value = ""
     inputTitulo.value = ""
     inputPrecio.value = ""
 }
 
-btnGuardarProducto.addEventListener("click", () => {
-    cargarProducto(estanteria)
-})
+document.addEventListener("DOMContentLoaded", function() {
+    const btnGuardarProducto = document.getElementById("btnGuardarProducto");
+
+    if (btnGuardarProducto) {
+        btnGuardarProducto.addEventListener("click", () => {
+            cargarProducto(carrito);
+        });
+    } else {
+        console.error("btnGuardarProducto not found");
+    }
+});
+
 
 buscador.addEventListener("input", () => {
-    buscarInfo(buscador.value, estanteria)
+    buscarInfo(buscador.value, carrito)
 })
 
 botonCarrito.addEventListener("click", () => {
