@@ -18,7 +18,7 @@ $background-image:linear-gradient(to bottom, #adcad6, #616566, hsl(0, 0%, 100%))
   background-image: $background-image;
   background-size: cover;
   background-position: center;
-  height: 94.2vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: top;
@@ -191,7 +191,21 @@ ul {
   }
  }
  
+ html body main section div#contenedor-productos.contenedor-productos{
+ 
+  display:grid  ;
+  grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  background-color: #d1cfe7;
+   
   
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  
+  
+}  
+
 @media screen and (max-width:1080px){
   .grid-container{
      grid-template-columns: 2fr;
